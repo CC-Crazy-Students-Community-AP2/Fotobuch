@@ -1,7 +1,9 @@
 # Fotobuch
+
 ## Ein Fotostudio möchte den Druck von Fotobüchern anbieten.
 
 ### Hardcover haben:
+
     - den Grundpreis von 10€
     - 8 Seiten im Grundpreis enthalten
     - 1-4 Setien kosten 4€ zusätzlich
@@ -9,6 +11,7 @@
     - eine maximale Seitnanazahl von 80 Seiten
 
 ### Softcover haben:
+
     - den Grundpreis von 6€
     - 12 Seiten im Grundpreis enthalten
     - 1-4 Setien kosten 3€ zusätzlich
