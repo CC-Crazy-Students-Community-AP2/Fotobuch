@@ -23,15 +23,14 @@ public class FotobuchApplication {
 
             Cover cover = null;
             int choice = 0;
-
             do {
                 System.out.println("Wählen Sie den Bucheinbandtyp:");
                 System.out.println("1. Hardcover");
                 System.out.println("2. Softcover");
                 System.out.print("Ihre Wahl (1 oder 2): ");
+
                 choice = Integer.parseInt(reader.readLine());
                 cover = choice == 1 ? new HardCover() : new SoftCover();
-
             } while (choice != 1 && choice != 2);
 
             System.out.print("Anzahl der Seiten (max: " + cover.getMaxPages() + "): ");

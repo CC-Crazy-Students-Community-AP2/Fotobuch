@@ -33,10 +33,6 @@ public abstract class Cover {
     @Override
     public String toString() {
         return String.format("Ihr %s Fotobuch \"%s\" kostet %.2f Euro und wiegt %d Gramm.",
-                this.getClass().getSimpleName(),
-                title,
-                calculatePrice(totalPages),
-                calculateWeight(totalPages)
-        );
+                this.getClass().getSimpleName(), title, calculatePrice(totalPages), calculateWeight(totalPages));
     }
 }
