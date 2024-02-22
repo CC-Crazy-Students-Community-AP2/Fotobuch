@@ -23,6 +23,6 @@ public class SoftCover extends Cover {
 
     @Override
     public int calculateWeight(int totalPages) {
-        return baseWeight + totalPages * 20;
+        return totalPages <= includedPages ? baseWeight : baseWeight + ((totalPages - includedPages) * 20);
     }
 }
